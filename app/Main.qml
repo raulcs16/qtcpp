@@ -2,6 +2,8 @@ import QtQuick
 import QtQuick.Layouts
 import QtQuick.Controls.Basic
 
+import Styles
+
 ApplicationWindow {
     id: app
     width: 2074
@@ -14,20 +16,20 @@ ApplicationWindow {
         ColumnLayout {
             Rectangle {
                 id: main_content
-                color: "#1D1D1D"
+                color: Colors.primaryColor
                 Layout.fillWidth: true
                 Layout.fillHeight: true
             }
             Rectangle {
                 id: status_bar
-                color: "#0B62A0"
+                color: Colors.accentColor
                 Layout.fillWidth: true
                 Layout.preferredHeight: 75
             }
         }
         Rectangle {
             id: side_bar
-            color: "#242426"
+            color: Colors.secondaryColor
             Layout.preferredWidth: 300
             Layout.fillHeight: true
         }

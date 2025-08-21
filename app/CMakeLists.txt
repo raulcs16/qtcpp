@@ -23,7 +23,7 @@ set_target_properties("${PROJECT_NAME}" PROPERTIES
 target_link_libraries("${PROJECT_NAME}" PRIVATE
     Qt6::Core
     Qt6::Quick
-    #any src lib, use suffix 'plugin'
+    StylesLibplugin
 )
 
 
